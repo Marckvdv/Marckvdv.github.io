@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-	width: 500px;
+	width: 600px;
 	margin: 0 auto;
 }
 
@@ -19,4 +19,5 @@ body {
 
 .container b, p {
 	display: inline;
+	font-size: 15px;
 }
