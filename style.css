@@ -17,7 +17,7 @@ body {
 	padding-left: 4em;
 }
 
-.container b, p {
+.container b, p, a {
 	display: inline;
 	font-size: 15px;
 }
