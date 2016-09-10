@@ -4,11 +4,13 @@ var linkTags = Array.prototype.slice.call(document.getElementsByTagName('a'));
 
 var elements = linkTags.concat(boldTags.concat(paragraphTags));
 
+/*
 for(var i = 0; i < elements.length; ++i) {
 	element = elements[i];
 	element.style.opacity = 0;
 	element.style.visibility = 'hidden';
 }
+*/
 
 var intervalID;
 

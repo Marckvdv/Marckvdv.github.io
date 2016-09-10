@@ -6,7 +6,8 @@ body {
 	color: orange;
 	font-family: monospace;
 	text-shadow: 0 0 10px;
-	transition: opacity .25s ease-in-out;
+
+	transition: all ease 0.5s;
 }
 
 .container {
@@ -22,4 +23,6 @@ body {
 .container b, p, a {
 	display: inline;
 	font-size: 15px;
+	visibility: hidden;
+	opacity: 0;
 }
