@@ -3,8 +3,10 @@ body {
 }
 
 * {
-	color: white;
+	color: orange;
 	font-family: monospace;
+	text-shadow: 0 0 10px;
+	transition: opacity .25s ease-in-out;
 }
 
 .container {
