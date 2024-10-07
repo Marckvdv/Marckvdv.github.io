@@ -26,10 +26,8 @@ body {
 .portrait img {
     width: 200px;
     height: 300px;
-    object-fit: none;
-    object-position: 43.5% 50%;
+    object-fit: cover;
     border-radius: 50px;
-    filter: sepia(100%) saturate(500%);
 }
 
 .portrait {
