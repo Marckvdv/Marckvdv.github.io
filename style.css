@@ -28,6 +28,7 @@ body {
     height: 300px;
     object-fit: cover;
     border-radius: 50px;
+    border: 2px solid orange;
 }
 
 .portrait {
@@ -43,7 +44,22 @@ th, td {
     padding: 10px;
 }
 
+table .authors {
+    white-space: nowrap;
+}
+
 .header {
-    display: table;
-    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+}
+
+.header div {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid orange;
+}
+
+.hidden {
+    display: none;
 }

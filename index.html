@@ -7,29 +7,33 @@
 
     <body>
         <div class="container">
-            <hr>
-            <div class="header">
-                <div class="portrait">
-                    <img src="mod.jpg">
-                </div>
-
-                <h3>NAME</h3><br>
-                <div class="indent">
-                    <p>Marck van der Vegt - marck.vandervegt 📧 ru.nl</p>
-                </div><br>
-
-                <h3>SYNOPSIS</h3><br>
-                <div class="indent">
-                    <p>PhD student Software Science at <a href="https://www.ru.nl">Radboud University</a> in the Netherlands.</p>
-                </div><br>
-
-                <h3>DESCRIPTION</h3><br>
-                <div class="indent">
-                    <p>
-                    I am interested in the probabilistic verification of compositional and partially observable models.
-                    </p>
-                </div><br>
+            <div class="header hidden">
+                <div onclick=";" style="cursor: pointer;"><h3>About Me</h3></div>
+                <div onclick=";" style="cursor: pointer;"><h3>Projects</h3></div>
+                <div onclick=";" style="cursor: pointer;"><h3>Blog</h3></div>
             </div>
+
+            <hr>
+            <div class="portrait">
+                <img src="mod.jpg">
+            </div>
+
+            <h3>NAME</h3><br>
+            <div class="indent">
+                <p>Marck van der Vegt - marck.vandervegt 📧 ru.nl</p>
+            </div><br>
+
+            <h3>SYNOPSIS</h3><br>
+            <div class="indent">
+                <p>PhD student Software Science at <a href="https://www.ru.nl">Radboud University</a> in the Netherlands.</p>
+            </div><br>
+
+            <h3>DESCRIPTION</h3><br>
+            <div class="indent">
+                <p>
+                I am interested in the probabilistic verification of compositional and partially observable models.
+                </p>
+            </div><br>
 
             <h3>PUBLICATIONS</h3>
             <div class="indent">
@@ -41,9 +45,20 @@
                         <th>Conference</th>
                     </tr>
                     <tr>
+                        <td>2025</td>
+                        <td>Compositional Verification of Almost-Sure Büchi Objectives in MDPs</td>
+                        <td class="authors">
+                            <b>Marck van der Vegt</b><br>
+                            Kazuki Watanabe</br>
+                            Ichiro Hasuo</br>
+                            Sebastian Junges</br>
+                        </td>
+                        <td>RP</td>
+                    </tr>
+                    <tr>
                         <td rowspan="3">2024</td>
                         <td>A PSPACE Algorithm for Almost-Sure Rabin Objectives in Multi-Environment MDPs¹</td>
-                        <td style="white-space: nowrap">
+                        <td class="authors">
                             Marnix Suilen<br>
                             <b>Marck van der Vegt</b><br>
                             Sebastian Junges
@@ -52,7 +67,7 @@
                     </tr>
                     <tr>
                         <td>Compositional Value Iteration with Pareto Caching</td>
-                        <td>
+                        <td class="authors">
                             Kazuki Watanabe<br>
                             <b>Marck van der Vegt</b><br>
                             Ichiro Hasuo<br>
@@ -62,7 +77,7 @@
                     </tr>
                     <tr>
                         <td>Pareto Curves for Compositionally Model Checking String Diagrams of MDPs</td>
-                        <td>
+                        <td class="authors">
                             Kazuki Watanabe<br>
                             <b>Marck van der Vegt</b><br>
                             Ichiro Hasuo<br>
@@ -74,7 +89,7 @@
                     <tr>
                         <td>2023</td>
                         <td>Robust Almost-Sure Reachability in Multi-Environment MDPs</td>
-                        <td>
+                        <td class="authors">
                             <b>Marck van der Vegt</b><br>
                             Nils Jansen<br>
                             Sebastian Junges
