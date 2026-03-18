@@ -1,26 +1,33 @@
 body {
-	background-color: black;
+    background-color: black;
 }
 
 * {
-	color: orange;
-	font-family: monospace;
-	text-shadow: 0 0 10px;
+    color: orange;
+    font-family: monospace;
+    text-shadow: 0 0 10px;
+
+    transition: all ease 0.5s;
 }
 
 .container {
-	width: 800px;
-	margin: 0 auto;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .container .indent {
-	display: block;
-	padding-left: 4em;
+    display: block;
+    padding-left: 4em;
 }
 
 .container b, p, a {
-	display: inline;
-	font-size: 15px;
+    display: inline;
+    font-size: 15px;
+}
+
+.container b, p, a, h3, hr {
+    visibility: hidden;
+    opacity: 0;
 }
 
 .portrait img {
@@ -57,7 +64,6 @@ table .authors {
 .header div {
     text-align: center;
     padding: 5px;
-    border: 1px solid orange;
 }
 
 .hidden {
